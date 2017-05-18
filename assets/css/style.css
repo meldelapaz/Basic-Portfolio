@@ -1,6 +1,6 @@
 header {
-	padding: 20px;
-	margin-bottom: 20px;
+	padding: 29px;
+	margin: 0px;
 	color: grey;
 	background: white;
 	text-align: right;
@@ -23,17 +23,42 @@ a:hover {
     text-decoration: underline;
 }
 
-#absolute {
+div {
+	position: relative;
+	background-color: lightgrey;
+	border-bottom: solid #4aaaa5 3px;
+	width: 100%;
+}
+
+section {
+	position: relative;
+	left: 30px;
+	bottom: 0;
+	width: 250px;
+	height: 200px;
+	text-align: left;
+	background-color: white;
+	padding: 15px;
+}
+
+footer {
+	padding: 30px;
+	margin: 0px;
+	color: white;
+	background: grey;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#myname {
 	position: absolute;
 	padding: 20px;
-	margin-bottom: 20px;
+	margin: 0px 0px 0px 155px;
 	text-align: center;
 	color: white;
 	background: #4aaaa5;
 }
 
-.wrapper {
-	width: 600px;
-	padding: 20px;
-	margin: 0 auto;
-}
+
+
+
