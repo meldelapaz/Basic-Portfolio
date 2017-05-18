@@ -1,0 +1,39 @@
+header {
+	padding: 20px;
+	margin-bottom: 20px;
+	color: grey;
+	background: white;
+	text-align: right;
+	font-family: sans-serif;
+}
+
+a {
+    color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#absolute {
+	position: absolute;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+	background: #4aaaa5;
+}
+
+.wrapper {
+	width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
