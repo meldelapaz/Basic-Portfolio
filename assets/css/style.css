@@ -7,21 +7,6 @@ header {
 	font-family: sans-serif;
 }
 
-.profilepic {
-	float: left;
-	margin-right: 20px;
-	margin-top: 20px;
-	width: 130px;
-	height: 200px;
-}
-
-.formname {
-	font-family: sans-serif;
-	color: grey;
-	margin: 10px 0px 10px 0px;
-}
-
-
 a {
     color: grey;
 }
@@ -38,22 +23,13 @@ a:hover {
     text-decoration: underline;
 }
 
-
-#full {
-  width: 100%;
-  overflow: auto;
-  clear: both;
-  background: #eee;
+h1 {
+	color: #4aaaa5;
 }
 
-#connectwithme {
-  float: left;
-  width: 30%;
-  height: 150px;
-  padding: 20px;
-  margin: 20px;
-  background: #fff;
-  border: 1px solid #eee;
+h2 {
+	color: #4aaaa5;
+	text-align: center;
 }
 
 aside {
@@ -66,6 +42,19 @@ aside {
   border: 1px solid #eee;
 }
 
+form {
+	font-family: sans-serif;
+	color: grey;
+	line-height: 30px;
+}
+
+input {
+	font-family: sans-serif;
+	color: lightgrey;
+	width: 100%;
+	line-height: 200%
+}
+
 footer {
 	position: relative;
 	padding: 30px;
@@ -74,6 +63,20 @@ footer {
 	background: grey;
 	text-align: center;
 	font-family: sans-serif;
+}
+
+.profilepic {
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 125px;
+	height: 200px;
+}
+
+.formname {
+	font-family: sans-serif;
+	color: grey;
+	margin: 10px 0px 10px 0px;
 }
 
 .divline {
@@ -97,6 +100,44 @@ footer {
 	height: 200px;
 	width: 200px;
 
+}
+
+.banners {
+	position: absolute;
+	bottom: 0;
+	width: 160px;
+	height: 20px;
+	padding: 20px;
+	margin: 15px;
+	text-align: center;
+	color: white;
+	background: #4aaaa5;
+}
+
+#myname {
+	position: absolute;
+	padding: 20px;
+	margin: 0px 0px 0px 70px;
+	text-align: center;
+	color: white;
+	background: #4aaaa5;
+}
+
+#connectwithme {
+  float: left;
+  width: 30%;
+  height: 150px;
+  padding: 20px;
+  margin: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+#full {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  background: #eee;
 }
 
 #project1 {
@@ -135,31 +176,6 @@ footer {
 
 }
 
-.banners {
-	position: absolute;
-	bottom: 0;
-	width: 160px;
-	height: 20px;
-	padding: 20px;
-	margin: 15px;
-	text-align: center;
-	color: white;
-	background: #4aaaa5;
-}
-
-form {
-	font-family: sans-serif;
-	color: grey;
-	line-height: 30px;
-}
-
-input {
-	font-family: sans-serif;
-	color: lightgrey;
-	width: 100%;
-	line-height: 200%
-}
-
 #messagetext {
 	line-height: 250px;
 }
@@ -176,23 +192,4 @@ input {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-
-#myname {
-	position: absolute;
-	padding: 20px;
-	margin: 0px 0px 0px 70px;
-	text-align: center;
-	color: white;
-	background: #4aaaa5;
-}
-
-h1 {
-	color: #4aaaa5;
-}
-
-
-h2 {
-	color: #4aaaa5;
-	text-align: center;
 }
